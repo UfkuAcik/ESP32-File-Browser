@@ -1,12 +1,18 @@
-# ESP32-File-Browser
+# MCU File Bridge
 
-Warning: This project is in active development. Please adjust your expectations accordingly.
+Warning: 
 
-Description: Manage SD cards connected to ESP32 development boards that do not have direct USB capability but are connected to the PC via a TTL converter, using a Python GUI.
+* This project is in active development. Please adjust your expectations accordingly.
+
+Project:
+
+* Establish a USB connection to your microcontroller-based development board through a Python GUI.
+* Access and manage the contents of the SPI-connected SD card on the microcontroller development board from your PC.
+* Enable bidirectional file transfer along with various file management operations.
 
 Future Developments:
 
-- Bluetooth support
-- Wi-Fi control support
-- Support for ESP32 boards that do not have a TTL converter and are connected directly via USB interface
-- Updating the project code using the standard Arduino library and making it ready for upload to all development boards.
+* Bluetooth support for control and file operations
+* Wi-Fi support for control and file operations
+* Support for ESP32 boards with native USB connectivity, without requiring a USB-to-TTL converter
+* Migration to the standard Arduino library for broader compatibility across various development boards, not only ESP32.
